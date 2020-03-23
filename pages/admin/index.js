@@ -1,5 +1,10 @@
-function AdminDashboard() {
-    return <div>Dashboard Coreui</div>
+import React from 'react';
+import Dashboard from '@containers/dashboard';
+export default class Auth extends React.Component{
+  static getInitialProps(context, config){
+    return {};
   }
-  
-  export default AdminDashboard;
+  render(){
+    return <Dashboard {...this.props} />
+  }
+}
