@@ -1,6 +1,6 @@
 import React from 'react';
 import Dashboard from '@containers/dashboard';
-export default class Auth extends React.Component{
+export default class Admin extends React.Component{
   static getInitialProps(context, config){
     return {};
   }
